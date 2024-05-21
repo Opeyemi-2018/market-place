@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.body {
+  font-family: "Poppins", sans-serif;
+ 
+  font-style: normal;
+}
+
 @keyframes spin-slow{
   0%{
     transform: rotate(0deg);
