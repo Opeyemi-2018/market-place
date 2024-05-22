@@ -7,6 +7,12 @@ import woman from '../assets/images/woman.png'
 import speaker4 from '../assets/images/speaker-4.png'
 
 function Home() {
+
+    let data = [
+        { id: 1, title: 'headset', text1: 'headset, text 1, text 1, text 1', text2: '222222222222222', image: headset2 },
+        { id: 2, title: 'phone', text1: 'text phone, text 1, text 1, text 1', text2: '3333333333', image: headset2 },
+        { id: 3, title: 'speaker', text1: 'text 1, text 1, text 1, text 1', text2: '44444444444', image: headset2 }
+    ]
     return (
         <div className=''>
             {/* <section className={showSignUp ? 'filter blur-[5px] brightness-[0.7]' : ''}> */}
@@ -18,7 +24,6 @@ function Home() {
                             <h1 className='md:text-5xl pb-3 text-2xl  font-extrabold'>XX99 MARK II GADGET</h1>
                             <div className='md:flex items-center py-3 hidden '>
                                 <p className='md:text-2xl text-1xl mr-2'>Shop with us today</p>
-
                                 <ReactTyped className='text-orange-600  md:text-2xl text-[12px]' strings={['For Exclusive Deal', 'and Enjoy Quality Product']} typeSpeed={100} backSpeed={20} loop />
                             </div>
                             <p className='pb-3 text-[#adbdbc]'>Discover the perfect blend of style and comfort with our latest collection</p>

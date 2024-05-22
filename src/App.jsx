@@ -8,6 +8,7 @@ import Cart from './components/Cart'
 // import Pratice from './pratice'
 import AllProduct from './components/AllProduct'
 import SignUp from './components/SignUp'
+import ScrollToTop from './ScrollToTop'
 
 function App() {
   let [carts, setCart] = useState([])
@@ -20,11 +21,12 @@ function App() {
   return (
     <div className='relative'>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Navbar nav={nav} setNav={setNav} carts={carts} setCart={setCart} cartCount={cartCount} setCartCount={setCartCount} />} >
             <Route index element={<Home />} />
             <Route path='AllProduct' element={<AllProduct nav={nav} setNav={setNav} />} />
-            <Route path='AllProduct/:id' element={<ProductInfo itemQuantity={itemQuantity} setItemQuantity={setItemQuantity} carts={carts} setCart={setCart} cartCount={cartCount} setCartCount={setCartCount} setShowSuccessMsg={setShowSuccessMsg} />} />
+            <Route path='AllProduct/:id' element={<ProductInfo itemQuantity={itemQuantity} setItemQuantity={setItemQuantity} carts={carts} setCart={setCart} cartCount={cartCount} setCartCount={setCartCount} showSuccessMsg={showSuccessMsg} setShowSuccessMsg={setShowSuccessMsg} />} />
             <Route path='cart' element={<Cart itemQuantity={itemQuantity} setItemQuantity={setItemQuantity} cartCount={cartCount} setCartCount={setCartCount} carts={carts} setCart={setCart} />} />
             <Route path='signup' element={< SignUp />} />
             {/* <Route path='headphone' element={<HeadPhone  />} /> */}

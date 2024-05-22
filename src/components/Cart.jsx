@@ -143,19 +143,19 @@ function Cart({ carts, setCart }) {
                                         <div className="grid gap-2 md:grid-cols-2">
                                             <div className="col-span-2">
                                                 <label>Address</label>
-                                                <input className="border border-gray-400 w-full rounded-sm  outline-none" type="text" />
+                                                <input className="border px-2 border-gray-400 w-full rounded-sm  outline-none" type="text" />
                                             </div>
                                             <div>
                                                 <label>Zip Code</label>
-                                                <input className="border border-gray-400 w-full rounded-sm outline-none" type="number" />
+                                                <input className="border px-2 border-gray-400 w-full rounded-sm outline-none" type="number" />
                                             </div>
                                             <div>
                                                 <label>City</label>
-                                                <input className="border border-gray-400 w-full rounded-sm outline-none" type="text" />
+                                                <input className="border px-2 border-gray-400 w-full rounded-sm outline-none" type="text" />
                                             </div>
                                             <div>
                                                 <label>Country</label>
-                                                <input className="border border-gray-400 w-full rounded-sm outline-none" type="text" />
+                                                <input className="border px-2 border-gray-400 w-full rounded-sm outline-none" type="text" />
                                             </div>
                                         </div>
                                     </div>
@@ -175,14 +175,14 @@ function Cart({ carts, setCart }) {
                                         <div className="md:flex md:flex-row flex-col justify-between gap-2 items-center mt-3">
                                             <div>
                                                 <label>e-money number</label>
-                                                <input type="number" className="border border-gray-400 pl-2 w-full rounded-sm outline-none" />
+                                                <input type="number" className="border border-gray-400 px-2 w-full rounded-sm outline-none" />
                                             </div>
                                             <div>
                                                 <label>e-money-pin</label>
                                                 <div className="relative">
                                                     <input
                                                         type={showPassword ? 'text' : 'password'} // Use conditional rendering based on the state variable
-                                                        className="border  border-gray-400 pl-2 w-full rounded-sm outline-none"
+                                                        className="border  border-gray-400 px-2 w-full rounded-sm outline-none"
                                                     />
                                                     {showPassword ? (
                                                         <FaEye onClick={handlePassword} className="absolute top-[20%] left-[85%]" />
@@ -243,6 +243,8 @@ function Cart({ carts, setCart }) {
 
                 </div>
             }
+
+            {/* footer */}
             <div className='bg-[#000] md:p-4 p-2  mt-[200px]'>
                 <div className='text-white max-w-[2000px] md:max-w-[1250px] md:px-0 px-2 mx-auto'>
 

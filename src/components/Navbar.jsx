@@ -11,7 +11,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
 import { MdAccountCircle } from "react-icons/md"
 
-function Navbar({ nav, setNav, cartCount, setCartCount, carts, setCart, search, setSearch }) {
+function Navbar({ nav, setNav, cartCount, setCartCount, carts, setCart, setSearch }) {
 
     let handleNav = () => {
         setNav(!nav)

@@ -66,7 +66,7 @@ function ProductInfo({ carts, setCart, itemQuantity, setItemQuantity, showSucces
         // <div className={showSignUp ? 'filter blur-[5px] brightness-[0.7]' : ''}>
         <div>
             {showSuccessMsg && (
-                <div className="bg-gray-200 top-0  z-30 md:p-8 p-4 w-full text-[#0c1012] font-medium fixed ">
+                <div className="bg-white top-0  z-30 md:p-6 p-4 w-full text-[#0c1012] font-medium fixed ">
                     <p className="text-center md:text-[17px] text-[15px]">ITEM SUCCESSFULLY ADDED</p>
                 </div>
             )}
