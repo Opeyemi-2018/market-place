@@ -164,10 +164,10 @@ function Cart({ carts, setCart }) {
                                         <h2 className="text-[#000] md:font-semibold font-medium">PAYMENT DETAILS</h2>
                                         <h3 className="py-1">payment method</h3>
                                         <div className="flex justify-between gap-4  items-center">
-                                            <button className="border border-[#b72522] md:py-[2px] py-[1px] rounded-md  px-4 flex gap-4 items-center justify-between  font-semibold text-gray-700 w-full whitespace-nowrap md:text-[18px] text-[14px]"> e-Money
+                                            <button className="border border-[#b72522] md:py-[2px] py-[1px] rounded-md  px-4 flex gap-4 items-center justify-between  font-semibold text-gray-700 w-full whitespace-nowrap md:text-[18px] text-[13px]"> e-Money
                                                 <input className="form-radio  h-5 w-5 accent-orange-700" name="radio-buttons" type="radio" />
                                             </button>
-                                            <button className="border  border-[#b72522] md:py-[2px] py-[1px] rounded-md  px-4 flex  gap-3 items-center justify-between  font-semibold text-gray-700 w-full whitespace-nowrap md:text-[18px] text-[14px]"> cash on delivery
+                                            <button className="border  border-[#b72522] md:py-[2px] py-[1px] rounded-md  px-4 flex  gap-3 items-center justify-between  font-semibold text-gray-700  w-[70%] whitespace-nowrap md:text-[18px] text-[13px]"> cash on delivery
                                                 <input className="form-radio h-5 w-5 accent-orange-700" name="radio-buttons" type="radio" />
                                             </button>
                                         </div>
