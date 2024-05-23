@@ -32,7 +32,7 @@ function AllProduct() {
                         <h1 className='text-gray-600 md:text-3xl text-2xl'>No item found!!!</h1>
                     </div>
                 )}
-                <div className='grid  grid-cols-3 gap-2 md:grid-cols-6  md:px-5 px-2   md:mt-[210px] mt-[170px] max-w-[1250px] mx-auto'>
+                <div className='grid  grid-cols-2 gap-2 sm:grid-cols-4 md:grid-cols-6  md:px-5 px-2   md:mt-[210px] mt-[170px] max-w-[1250px] mx-auto'>
                     {filteredProducts.map((product) => {
                         let { id, image, name, price } = product;
 
@@ -47,9 +47,9 @@ function AllProduct() {
                                         <div className='md:mt-7 mt-1 flex flex-col items-center'>
                                             <div className='flex gap-4 items-center justify-between'>
                                                 <h1 className='text-[#000300] whitespace-nowrap md:text-[17px] text-[13px]'>{name}</h1>
-                                                <h1 className='md:text-[16px] text-[13px] font-semibold  text-gray-700' >${price}</h1>
+                                                <h1 className='md:text-[16px] text-[13px]   text-gray-700' >${price}</h1>
                                             </div>
-                                            <div className='flex items-center justify-center gap-4 mt-1'>
+                                            <div className='flex items-center justify-between gap-10  mt-1'>
                                                 <p className='text-gray-700 md:text-sm text-[10px]'>SHOP</p>
                                                 <IoIosArrowForward className='text-orange-600'></IoIosArrowForward >
                                             </div>

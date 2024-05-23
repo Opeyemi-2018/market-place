@@ -8,7 +8,7 @@ function SignUp() {
         <div className=''>
           <div className='mb-8'>
             <h1 className='text-center  font-bold md:text-3xl text-[18px] mb-1'>Create An Account</h1>
-            <p className='text-[#555] text-center mb-3 md:text-[16px] '>Enter youfr email to sign up for this app</p>
+            <p className='text-[#555] text-center mb-3 md:text-[16px] '>Enter your email to sign up </p>
           </div>
 
           {/* form */}

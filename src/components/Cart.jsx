@@ -73,7 +73,7 @@ function Cart({ carts, setCart }) {
     return (
 
         <div className="bg-gray-50">
-            {notification && (<div className="bg-gray-300 p-4 md:w-[40%] w-[80%] rounded-md fixed transform -translate-x-1/2 -translate-y-1/2 md:top-[50%] top-[40%] left-[50%]">
+            {notification && (<div className="bg-gray-200 p-4 md:w-[40%] w-[80%] rounded-md fixed transform -translate-x-1/2 -translate-y-1/2 md:top-[50%] top-[40%] left-[50%]">
                 <div className="flex items-center text-center justify-center flex-col">
                     <div><PiWarningCircleLight className="text-[#b72522]" size={40} /></div>
                     <div className="my-3 md:text-[20px] text-[15px]">Are you sure you want to remove all  items</div>
@@ -82,7 +82,7 @@ function Cart({ carts, setCart }) {
                             <button onClick={removeAllCart} className="bg-[#b72522] text-white hover:bg-red-500 py-1 md:px-2 px-2 rounded-md ease-in-out duration-500 ">Yes i'm sure</button>
                         </div>
                         <div>
-                            <button onClick={cancel} className="border border-[#0c1012] bg-white md:py-1 py-[3px] md:px-2 px-2 rounded-md ease-in-out duration-500 hover:bg-slate-200 ">No, cancel</button>
+                            <button onClick={cancel} className=" bg-white md:py-1 py-[3px] md:px-2 px-2 rounded-md ease-in-out duration-500 hover:bg-slate-200 ">No, cancel</button>
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@ function Cart({ carts, setCart }) {
                         </div>
                         <h1 className="text-[17px] text-center md:text-[22px]">Your cart is empty!</h1>
                         <p className="text-[17px] text-center md:text-[22px]">Browse our category and discover our best deals!</p>
-                        <Link to={'/Allproduct'}><button className='animate-bounce bg-orange-600 rounded-sm my-4 w-full md:p-1 text-[#fff] text-[17px] md:text-[19px]'>START SHOPPING</button> </Link>
+                        <Link to={'/Allproduct'}><button className='animate-bounce bg-orange-600 rounded-sm my-4 w-full md:p-2 p-1 text-[#fff] text-[15px] md:text-[18px]'>START SHOPPING</button> </Link>
 
                     </div>
                 </div>

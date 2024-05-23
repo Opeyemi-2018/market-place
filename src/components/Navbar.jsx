@@ -34,7 +34,7 @@ function Navbar({ nav, setNav, cartCount, setCartCount, carts, setCart, setSearc
 
                     <NavLink to={'/cart'} className={({ isActive }) => isActive ? 'relative activeStyle hover:text-[#737e80] ease-in-out duration-500' : 'relative'}>
                         <div className='relative'>
-                            <p className='absolute md:left-4 left-3 md:bottom-4 bottom-2 border border-white text-[#fff] bg-[#0c1012] p-3 rounded-full h-full w-full  flex items-center justify-center whitespace-wrap'>{carts.length}</p>
+                            <p className='absolute md:left-4 left-3 md:bottom-4 bottom-2 border border-white text-[#fff] bg-[#0c1012] p-2 rounded-full h-full w-full  flex items-center justify-center whitespace-wrap'>{carts.length}</p>
                             <IoCart className='md:text-[40px] text-[20px] ease-in-out duration-500' />
                         </div>
                     </NavLink>
