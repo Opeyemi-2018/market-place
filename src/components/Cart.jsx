@@ -102,10 +102,10 @@ function Cart({ carts, setCart }) {
             {carts.length === 0 ?
                 <div className="flex items-center  justify-center  pt-2 h-screen">
                     <div>
-                        <div className="bg-white rounded-full md:h-40 md:w-40 w-20 h-20  mx-auto flex items-center justify-center p-4 ">
+                        <div className="bg-white rounded-full md:h-40 md:w-40 w-20 h-20  mx-auto flex items-center justify-center p-4">
                             <IoCart className='md:text-[80px] text-[50px]  text-[#000] animate-spin' />
                         </div>
-                        <h1 className="text-[17px] text-center md:text-[22px]">Your cart is empty!</h1>
+                        <h1 className="text-[17px] text-center md:text-[22px]">Your cart is empty!!!!</h1>
                         <p className="text-[17px] text-center md:text-[22px]">Browse our category and discover our best deals!</p>
                         <Link to={'/Allproduct'}><button className='animate-bounce bg-orange-600 rounded-sm my-4 w-full md:p-2 p-1 text-[#fff] text-[15px] md:text-[18px]'>START SHOPPING</button> </Link>
 
