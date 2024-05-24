@@ -193,7 +193,7 @@ function Cart({ carts, setCart }) {
                                             </div>
                                         </div>
                                     </div>
-                                    <button style={{ letterSpacing: '2px' }} className="bg-orange-600 w-full  mt-4  text-white text-2xl rounded-md">send</button>
+                                    <button style={{ letterSpacing: '2px' }} className="bg-orange-600  active:bg-orange-700 font-medium w-full  mt-4  text-white py-1 sm:py-2 sm:text-1xl text-[12px] rounded-md">PAY NOW</button>
                                 </form>
                             </div>}
 
