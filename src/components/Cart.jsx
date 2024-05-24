@@ -107,7 +107,7 @@ function Cart({ carts, setCart }) {
                         </div>
                         <h1 className="text-[17px] text-center md:text-[22px]">Your cart is empty!!!!</h1>
                         <p className="text-[17px] text-center md:text-[22px]">Browse our category and discover our best deals!</p>
-                        <Link to={'/Allproduct'}><button className='animate-bounce bg-orange-600 rounded-sm my-4 w-full md:p-2 p-1 text-[#fff] text-[15px] md:text-[18px]'>START SHOPPING</button> </Link>
+                        <Link to={'/Allproduct'}><button className='animate-bounce bg-orange-600 rounded-sm my-4 w-full p-[6px] text-[#fff] '>START SHOPPING</button> </Link>
 
                     </div>
                 </div>
@@ -193,7 +193,7 @@ function Cart({ carts, setCart }) {
                                             </div>
                                         </div>
                                     </div>
-                                    <button style={{ letterSpacing: '2px' }} className="bg-orange-600  active:bg-orange-700 font-medium w-full  mt-4  text-white py-2 sm:text-1xl text-[12px] rounded-md">PAY NOW</button>
+                                    <button style={{ letterSpacing: '2px' }} className="bg-orange-600  active:bg-orange-700 font-medium w-full  mt-4  text-white p-[6px] rounded-md">PAY NOW</button>
                                 </form>
                             </div>}
 
