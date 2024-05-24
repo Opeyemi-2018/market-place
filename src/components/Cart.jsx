@@ -107,7 +107,7 @@ function Cart({ carts, setCart }) {
                         </div>
                         <h1 className="text-[17px] text-center md:text-[22px]">Your cart is empty!!!!</h1>
                         <p className="text-[17px] text-center md:text-[22px]">Browse our category and discover our best deals!</p>
-                        <Link to={'/Allproduct'}><button className='animate-bounce bg-orange-600 rounded-sm my-4 w-full p-[6px] text-[#fff] '>START SHOPPING</button> </Link>
+                        <Link to={'/Allproduct'}><button className='animate-bounce bg-orange-600 rounded-md my-4 w-full p-[6px] text-[#fff] '>START SHOPPING</button> </Link>
 
                     </div>
                 </div>
